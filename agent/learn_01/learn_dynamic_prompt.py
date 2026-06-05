@@ -17,7 +17,8 @@ from langchain_qwq import ChatQwen
 
 from agent.learn_01.format_print_util import message_format
 
-load_dotenv()
+
+# load_dotenv()
 
 
 class Context(TypedDict):
@@ -54,6 +55,6 @@ agent = create_agent(model=qwen, middleware=[user_role_prompt], tools=[get_user_
 # 系统提示将根据上下文动态设置
 result = agent.invoke(
     {"messages": [{"role": "user", "content": "解释机器学习"}]},
-    context={"user_role": "expert"}
+    context={"user_role": "beginner"}
 )
 message_format(result)
