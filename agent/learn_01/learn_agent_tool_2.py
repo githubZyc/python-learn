@@ -33,7 +33,7 @@ from langchain import tools
 #
 from langchain.tools import tool
 
-from agent.learn_01.learn_chat_model_01 import model
+from agent.learn_01.learn_chat_model_1 import model
 
 
 #

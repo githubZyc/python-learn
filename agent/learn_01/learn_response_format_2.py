@@ -6,7 +6,7 @@ LangChain 支持多种架构类型和强制执行结构化输出的方法。
 
 
 """
-from agent.learn_01.learn_chat_model_01 import model
+from agent.learn_01.learn_chat_model_1 import model
 
 """
 Pydantic

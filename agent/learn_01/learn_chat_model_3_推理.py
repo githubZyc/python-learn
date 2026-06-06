@@ -4,7 +4,7 @@
 
 如果底层模型支持，您可以显示此推理过程以更好地理解模型如何得出其最终答案。
 """
-from agent.learn_01.learn_chat_model_01 import model
+from agent.learn_01.learn_chat_model_1 import model
 
 # for chunk in model.stream("为什么鹦鹉有五颜六色的羽毛？"):
 #     reasoning_steps = [r for r in chunk.content_blocks if r["type"] == "reasoning"]
