@@ -117,5 +117,5 @@ if __name__ == "__main__":
     # 2 注册我们的实战搜索工具
     search_desc = "一个网页搜索引擎。当你需要回答关于时事、事实以及在你的知识库中找不到的信息时，应使用此工具。"
     toolExecutor.registerTool("serp_search", search_desc, serp_search)
-    agent = ReAct(hello, toolExecutor, 2)
-    agent.run("华为最新手机型号及主要卖点")
+    agent = ReAct(hello, toolExecutor)
+    agent.run("华为最新的手机是哪一款？它的主要卖点是什么？")
